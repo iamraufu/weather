@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/all.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Be prepared for the day, Get the forecast for today</h1>
+        <form class="search">
+            <input id="city" type="text" class="search-box" placeholder="Enter City Name" autocomplete="off">
+            <button class="search-button"><i class="fa fa-search"></i> Search</button>
+        </form>
+        <main id="report"></main>
+        <div class="weather-status"></div>
+    </div>
+    <script src="js/api.js"></script>
+</body>
+
+</html>
